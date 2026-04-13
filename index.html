@@ -3,40 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sophia Nicole</title>
-
-    <link rel="icon" type="image/png" href="671234552_17940517377192268_1026988706062429402_n.jpg">
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Sophia NICOLE?</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="font-montserrat bg-gray-100 min-h-screen flex items-center justify-center">
-
-    <div class="relative w-full max-w-md group cursor-pointer">
-        <img src="Screenshot from 2026-04-13 17-51-12.png" 
-             class="w-full h-auto object-contain">
-
-        <div class="absolute inset-0 bg-pink-500 bg-opacity-70 opacity-0 group-hover:opacity-100 transition duration-500"></div>
-
-        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
-            <span class="text-white text-xl font-medium">Sophia Nicole</span>
+<body>
+    <div class="container">
+        <h1>Mahal mo ba ako babyyy nicole q?</h1>
+        <div class="buttons">
+            <button class="yes-button" onclick="handleYesClick()">Yes</button>
+            <button class="no-button" onclick="handleNoClick()">No</button>
+        </div>
+        <div class="gif_container">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5lenZyZHI5OXM2eW95b3pmMG40cWVrMDhtNjVuM3A4dGNxa2g2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VM1fcpu2bKs1e2Kdbj/giphy.gif" alt="Cute GIF">
         </div>
     </div>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        montserrat: ['Montserrat', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
